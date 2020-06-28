@@ -1,0 +1,29 @@
+title: Trying Cloudflares Workers
+dateandtime: 2020-05-16 14:43
+category: technology
+tags: technology, programming, cloudflare, wrangler, key-value
+---
+<p>So, Cloud flare has a lot of options to provide. I personally and professionally been with them for a while.  It has been a great journey. Recently, I was thinking about trying out their workers. I did today and it seems very very promising. The documentation was also good. __wrangler__ is a nice idea and implementation. I wanted to try the concept and end up with static one.<p>
+
+If you hit here <a href="https://ip.tech0.xyz" target="_blank">https://ip.tech0.xyz</a> you will see your ip address. Pretty simple. It is running via **workers**.
+
+<pre><code class="bash">
+$ curl -I https://ip.tech0.xyz
+</code></pre>
+
+<pre><code class="bash">
+HTTP/2 200
+date: Sun, 17 May 2020 09:00:09 GMT
+content-type: text/plain;charset=UTF-8
+content-length: 13
+set-cookie: __cfduid=XXXXXXXXXXXXXXXXX; expires=Tue, 16-Jun-20 09:00:09 GMT; path=/; domain=.tech0.xyz; HttpOnly; SameSite=Lax
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: XXXXXXXXXXX
+cf-request-id: XXXXXXXXXXXXXXXXXXXXX
+</code></pre>
+
+<p>
+But the problem is, I wanted to try **key-value(KV)** store of __Cloudflares__. But I am on zero luck as they do not provide it for **free**. It is costly from my points of view. $5/month.
+However, I will give it a try when I will have some plans for my company. By the way, it is fast but it has limited calls. So if you try to flood that address, I will end up with error on serving.
+<p>

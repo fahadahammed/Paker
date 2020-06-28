@@ -1,0 +1,26 @@
+{
+  "site_name": "Fahads Realm",
+  "description": "A quest to put the dreams into words.",
+  "keywords": "Journey, Technology, Hobby, Dhaka, Bangladesh, Bangladeshi DevOps, Keraniganj, Rohitpur",
+  "author": "Fahad Ahammed",
+  "email": "iamfahadahammed@gmail.com",
+  "networks": {
+    "twitter": {
+      "url": "https://twitter.com/obakfahad",
+      "name": "obakfahad"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/fahadahammed",
+      "name": "fahadahammed"
+    },
+    "github": {
+      "url": "https://github.com/fahadahammed",
+      "name": "fahadahammed"
+    },
+    "medium": {
+      "url": "https://medium.com/@fahadahammed",
+      "name": "fahadahammed"
+    }
+  },
+  "domain": "https://fahadahammed.com"
+}

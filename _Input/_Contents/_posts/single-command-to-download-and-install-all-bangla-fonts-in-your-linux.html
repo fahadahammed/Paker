@@ -1,0 +1,69 @@
+title: Single Command to Download and Install All Bangla Fonts in Your Linux
+dateandtime: 2014-01-15 13:37:06
+category: linux
+tags: Bangla Fonts, Linux fonts, linux bangla fonts, bangla font kali linux, bangla font for kali linux, install bangla font in kali linux,how to install bangla font in kali linux,bangla font for linux,install bangla font on kali,single command bangla font,kali linux bangla font,bangla font in kali linux,install bangla font in ubuntu
+---
+I have created a script which will download and install 70 Bangla fonts(with variations of them) without searching. Just run this script in your Linux based PC/Laptops terminal and get all Bangla fonts instantly without hassle.
+
+The fonts are:
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <ul>
+                <li>AdorshoLipi_20-07-2007.ttf</li>
+                <li>akaashnormal.ttf</li>
+                <li>AponaLohit.ttf</li>
+                <li>Bangla.ttf</li>
+                <li>BenSen.ttf</li>
+                <li>kalpurush.ttf</li>
+                <li>kalpurush_ANSI.ttf</li>
+                <li>Lohit_14-04-2007.ttf</li>
+                <li>mitra.ttf</li>
+                <li>Mukti_1.99_PR.ttf</li>
+                <li>muktinarrow.ttf</li>
+                <li>NikoshBAN.ttf</li>
+            </ul>
+        </div>
+        <div class="col-sm">
+            <ul>
+                <li>NikoshGrameen.ttf</li>
+                <li>NikoshLightBan.ttf</li>
+                <li>NikoshLight.ttf</li>
+                <li>Nikosh.ttf</li>
+                <li>sagarnormal.ttf</li>
+                <li>Siyam Rupali ANSI.ttf</li>
+                <li>SolaimanLipi_20-04-07.ttf</li>
+                <li>SutonnyMJ.ttf</li>
+                <li>Vrinda.ttf</li>
+                <li>Charu Chandan</li>
+                <li>Noto Sans Bengali</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<strong><span
+        style="color: #800000;">How To:</span></strong> Now open your terminal copy full line and paste in your terminal and press enter. And after some time you will see that all fonts are downloading and installing without any hassle. :)
+
+<pre><code class="bash">wget --no-check-certificate https://raw.githubusercontent.com/fahadahammed/linux-bangla-fonts/master/font.sh -O font.sh;chmod +x font.sh;bash font.sh;rm font.sh</code></pre>
+
+If it doesn't work, try below one:
+
+<pre><code class="bash">wget --no-check-certificate https://raw.githubusercontent.com/fahadahammed/linux-bangla-fonts/master/dist/lbfi -O lbfi;chmod +x lbfi;./lbfi</code></pre>
+
+<em><strong>Upgrade 2018-03-15:</strong> Edited the script for further update mechanisms and added some new fonts.</em>
+
+<em><strong>Upgrade 2019-02-05:</strong> Added support for Ubuntu-18.04 and also checked some cases to handle. This
+    script now will not work on CentOS or Fedora or RHEL, I have to work on this part.</em>
+
+<em><strong>Upgrade 2019-10-29:</strong> Added new script</em>
+
+Fonts are collected from different sources. Fonts are hard work of the creators. Respect their work.
+
+I have tested the script only from Debian Based Distributions Like Debian itself, Ubuntu, Linux Mint, Kali, Netrunner etc. I hope it will also work on RPM based Distributions like Fedora, OpenSuse, Mandriva, CentOS etc. It should also work with others  like Archlinux.
+
+If you want to contribute then use: <a href="https://github.com/fahadahammed/linux-bangla-fonts">https://github.com/fahadahammed/linux-bangla-fonts</a>
+
+Please leave feedback about it is working or not. Thank you.

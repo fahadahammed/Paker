@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Fira+Code:wght@300;400;500;600;700&family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* 
+font-family: 'Bitter', serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Fira Code', monospace;
+font-family: 'MuseoModerno', cursive;
+*/
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background: linear-gradient(
+        -45deg, 
+        rgba(236, 147, 166, 0.281),
+        rgba(163, 98, 238, 0.11),
+        rgba(73, 224, 141, 0.82),
+        rgba(171, 190, 101, 0.404)
+        );
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bitter', serif;
+}
+
+pre, code {
+    font-family: 'Fira Code', monospace;
+}
+
+a {
+    color: rgba(206, 177, 13, 0.938);
+}
+
+a:hover {
+    color: rgba(179, 153, 6, 0.938);
+    text-decoration-color: blueviolet;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav {
+    margin-top: 2%;
+}
+
+.jumbotron {
+    margin-top: 2%;
+}
+
+#fahad {
+    max-width: 100%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px #81ace6da;
+}
+
+#fahad:hover {
+    transform: rotate(-5deg);
+}
+
+
+.resume-menu {
+    padding: 1%;
+    margin-top: 2%;
+    background-color: rgba(228, 240, 255, 0.979);
+    text-align: center;
+}
+
+.resume-menu a {
+    color: rgb(75, 73, 72);
+    text-decoration: none;
+}
+
+.section {
+    padding: 1%;
+    margin: 2%;
+    background-color: rgba(208, 220, 235, 0.733);
+}
+
+.defined-section {
+    padding: 1%;
+    margin-top: 2%;
+    background-color: rgba(228, 240, 255, 0.979);
+    border-radius: 3px;
+    color: rgba(33, 48, 48, 0.925);
+}
+
+.section-title {
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.sub-section {
+    padding: 2%;
+    margin-top: 2%;
+    background-color: rgba(216, 231, 250, 0.932);
+    border-radius: 3px;
+}
+
+.sub-section:hover {
+    box-shadow: 5px 5px 5px rgba(2, 185, 185, 0.5);
+}
+
+.progress {
+    margin-top: 2%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 2%;
+}
+
+#post {
+    background-color: ghostwhite;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+#post_extra_info {
+    border-bottom-style: groove;
+    border-bottom-color: aquamarine;
+    background-color: #eedcf542;
+    padding: 2%;
+}
+
+#post_body {
+    padding: 2%;
+    background-color: whitesmoke;
+    font-size: large;
+}
+
+pre, code {
+    font-family: 'Fira Code', monospace;
+}
+
+#post_list {
+    padding: 2%;
+    margin-top: 2%;
+    background-color: ghostwhite;
+    font-size: larger;
+    font-style: oblique;
+}
+
+#post_list ul li {
+    color: #553c6d;
+    list-style: upper-latin;
+    background-color: #88d28d2e;
+    padding: 1%;
+    margin-bottom: inherit;
+    border-radius: 2px;
+}
+
+#post_list ul li:hover {
+    box-shadow: 5px 5px 5px rgba(2, 185, 185, 0.5);
+    font-weight: bolder;
+    color: rgba(113, 31, 191, 0.92);
+}
+
+#post_list ul li a {
+    text-decoration: none;
+    color: rgba(128, 17, 168, 0.92);
+    font-weight: bold;
+}
+
+#post_list ul li a:hover {
+    text-decoration: none;
+    color: rgba(152, 42, 208, 0.95);
+}
+
+
+
+
+.images {
+    background-color: #ffffffd9;
+    padding: 1%;
+}
+
+.monofolder {
+    margin: 5px;
+    background-color: #fdfdfd;
+    padding: 1%;
+    border: dashed mediumvioletred;
+}
+
+.monoimage {
+    display: inline-block;
+    background-color: #ababab;
+    margin: 1%;
+    padding: 1%;
+    width: 20%;
+}
+
+.defaultimg {
+    font-size: xx-large;
+}
+
+.library-header {
+    border-bottom: dotted rebeccapurple;
+    color: midnightblue;
+    padding: 1%;
+}
+
+.card {
+    width: 30%;
+    max-width: 30%;
+    display: inline-block;
+}
+
+.card img {
+    max-width: 100%;
+}
+
